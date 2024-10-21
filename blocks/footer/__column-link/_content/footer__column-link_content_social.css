@@ -1,0 +1,7 @@
+.footer__column-link_content_social:after {
+  left: 26px;
+}
+
+.footer__column-link_content_social:hover:after {
+  width: calc(100% - 26px);
+}

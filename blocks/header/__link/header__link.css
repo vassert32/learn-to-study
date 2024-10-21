@@ -1,0 +1,23 @@
+.header__link {
+  position: relative;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.header__link::after {
+  content: "→";
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+  transition: all 0.2s;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
+
+.header__link:hover::after {
+  right: -30px;
+}
